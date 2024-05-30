@@ -1,15 +1,13 @@
 <script setup lang="ts">
-
+import VideoPlayer from '@/components/video-player/video-player.vue'
 </script>
 
 <template>
-  <header>
-    <div class="wrapper">
-      test
-    </div>
-  </header>
+  <header>Test</header>
 
   <main>
-    <TheWelcome />
+    <div class="wrapper">
+      <VideoPlayer videoSrc="https://3d.disane.dev/webcam2/video.mp4" />
+    </div>
   </main>
 </template>

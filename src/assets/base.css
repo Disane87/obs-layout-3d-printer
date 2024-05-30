@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body{
+  @apply bg-black text-white;
+  /* width: 1920px;
+  height: 1080px; */
+}
